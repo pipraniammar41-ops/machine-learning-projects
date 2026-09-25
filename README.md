@@ -4,6 +4,8 @@ A collection of hands-on Machine Learning projects built while learning
 and applying core ML concepts from data preprocessing to model evaluation
 and model improvement.
 
+---
+
 ## 📚 Projects
 
 ### 01. Customer Churn Prediction
@@ -11,42 +13,47 @@ and model improvement.
 - EDA and data preprocessing
 - Logistic Regression, KNN, Naive Bayes
 - Feature selection and model comparison
-- Improved model performance through better preprocessing and feature selection
+- Model improvement through preprocessing and feature selection
 
-### 02. Insurance ML
+### 02. Insurance Cost Prediction
 - Regression problem
 - EDA and data preprocessing
+- Feature engineering and feature scaling
 - Linear Regression
-- Feature analysis and model evaluation
-- Improved regression performance by adding and evaluating relevant features
+- R² and Adjusted R² evaluation
 
 ### 03. Social Network Ads Prediction
 - Classification problem
 - Data preprocessing and feature scaling
-- Logistic Regression, KNN, Naive Bayes
+- Logistic Regression, KNN, Decision Tree
 - Model comparison
-- Improved classification performance through scaling and model selection
+- Model improvement through feature scaling
 
 ### 04. Ford Car Price Prediction
 - Regression problem
 - Data cleaning and preprocessing
 - Feature engineering and feature selection
 - Linear Regression
-- Improved prediction performance by adding useful features and removing less useful ones
+- Model improvement through better preprocessing and feature selection
+
+---
 
 ## 🧠 Concepts Covered
 
 - Supervised Learning
 - Regression & Classification
-- EDA
+- Exploratory Data Analysis (EDA)
 - Data Cleaning & Preprocessing
 - Feature Engineering
 - Feature Selection
 - Feature Scaling
 - Train-Test Split
+- Model Training & Testing
 - Model Evaluation
 - Model Comparison
 - Model Improvement
+
+---
 
 ## 🤖 Models Practiced
 
@@ -54,6 +61,9 @@ and model improvement.
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Naive Bayes
+- Decision Tree
+
+---
 
 ## 🛠️ Technologies
 
@@ -63,17 +73,21 @@ and model improvement.
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- SciPy
 - Jupyter Notebook
 - Git & GitHub
 
-## 📈 Learning Progression
+---
 
+## 📈 Learning Progression
 
 ML Fundamentals
       ↓
 EDA & Data Understanding
       ↓
 Data Cleaning & Preprocessing
+      ↓
+Feature Engineering
       ↓
 Feature Scaling
       ↓
@@ -84,8 +98,6 @@ Model Training
 Regression & Classification
       ↓
 Model Testing & Evaluation
-      ↓
-Feature Engineering
       ↓
 Feature Selection
       ↓
