@@ -1,16 +1,17 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # ==============================
 # LOAD SAVED FILES
 # ==============================
 
-model = joblib.load("Logis_heart.pkl")
-scaler = joblib.load("scaler.pkl")
-expected_columns = joblib.load("columns.pkl")
 
+model = joblib.load(os.path.join(BASE_DIR, "Logis_heart.pkl"))
+scaler = joblib.load(os.path.join(BASE_DIR, "scaler.pkl"))
+expected_columns = joblib.load(os.path.join(BASE_DIR, "columns.pkl"))
 
 # ==============================
 # TITLE
